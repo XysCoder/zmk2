@@ -1,13 +1,5 @@
 include:
-  - board: seeeduino_xiao_ble
-    shield: charybdis_dongle
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y  
-  - board: seeeduino_xiao_ble
+  - board: nice_nano_v1
     shield: charybdis_left
-  - board: seeeduino_xiao_ble
+  - board: nice_nano_v1
     shield: charybdis_right
-  - board: seeeduino_xiao_ble
-    shield: settings_reset
-  - board: seeeduino_xiao_ble
-    shield: settings_reset
